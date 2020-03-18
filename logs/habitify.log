@@ -1,0 +1,55 @@
+2020-03-18 13:36:12,209 INFO [main] i.d.s.DefaultServerFactory [] Registering jersey handler with root path prefix: /
+
+2020-03-18 13:36:12,212 INFO [main] i.d.s.DefaultServerFactory [] Registering admin handler with root path prefix: /
+
+2020-03-18 13:36:12,212 INFO [main] c.h.a.HabitifyApplication [] Application is up!
+
+2020-03-18 13:36:12,214 INFO [main] i.d.s.ServerFactory [] Starting HabitifyApplication
+
+2020-03-18 13:36:12,263 WARN [main] o.e.j.s.AbstractConnector [] Acceptors should be <= availableProcessors: ServerConnector@7f3ca64a{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+
+2020-03-18 13:36:12,337 INFO [main] o.e.j.s.SetUIDListener [] Opened application@7f3ca64a{HTTP/1.1,[http/1.1]}{0.0.0.0:7500}
+
+2020-03-18 13:36:12,337 INFO [main] o.e.j.s.SetUIDListener [] Opened admin@3b481bf5{HTTP/1.1,[http/1.1]}{0.0.0.0:7501}
+
+2020-03-18 13:36:12,339 INFO [main] o.e.j.s.Server [] jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_181-b13
+
+2020-03-18 13:36:12,916 INFO [main] i.d.j.DropwizardResourceConfig [] The following paths were found for the configured resources:
+
+    NONE
+
+
+2020-03-18 13:36:12,917 INFO [main] o.e.j.s.h.ContextHandler [] Started i.d.j.MutableServletContextHandler@4a9bce99{/,null,AVAILABLE}
+
+2020-03-18 13:36:12,924 INFO [main] i.d.s.AdminEnvironment [] tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+
+2020-03-18 13:36:12,924 WARN [main] i.d.s.AdminEnvironment [] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+2020-03-18 13:36:12,931 INFO [main] o.e.j.s.h.ContextHandler [] Started i.d.j.MutableServletContextHandler@ae3c140{/,null,AVAILABLE}
+
+2020-03-18 13:36:12,950 INFO [main] o.e.j.s.AbstractConnector [] Started application@7f3ca64a{HTTP/1.1,[http/1.1]}{0.0.0.0:7500}
+
+2020-03-18 13:36:12,952 INFO [main] o.e.j.s.AbstractConnector [] Started admin@3b481bf5{HTTP/1.1,[http/1.1]}{0.0.0.0:7501}
+
+2020-03-18 13:36:12,952 INFO [main] o.e.j.s.Server [] Started @3861ms
+
+2020-03-18 13:36:22,384 INFO [Thread-12] o.e.j.s.AbstractConnector [] Stopped application@7f3ca64a{HTTP/1.1,[http/1.1]}{0.0.0.0:7500}
+
+2020-03-18 13:36:22,385 INFO [Thread-12] o.e.j.s.AbstractConnector [] Stopped admin@3b481bf5{HTTP/1.1,[http/1.1]}{0.0.0.0:7501}
+
+2020-03-18 13:36:22,387 INFO [Thread-12] o.e.j.s.h.ContextHandler [] Stopped i.d.j.MutableServletContextHandler@ae3c140{/,null,UNAVAILABLE}
+
+2020-03-18 13:36:22,391 INFO [Thread-12] o.e.j.s.h.ContextHandler [] Stopped i.d.j.MutableServletContextHandler@4a9bce99{/,null,UNAVAILABLE}
+
